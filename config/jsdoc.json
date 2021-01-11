@@ -1,0 +1,19 @@
+{
+  "source": {
+    "include": [
+      "src/"
+    ]
+  },
+  "sourceType": "module",
+  "tags": {
+    "allowUnknownTags": false,
+    "dictionaries": [
+      "jsdoc",
+      "closure"
+    ]
+  },
+  "opts": {
+    "template": "templates/default",
+    "destination": "docs/jsdoc/"
+  }
+}

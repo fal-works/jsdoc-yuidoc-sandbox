@@ -1,0 +1,16 @@
+{
+  "license": "CC0-1.0",
+  "author": "FAL",
+  "devDependencies": {
+    "jsdoc": "^3.6.6",
+    "yuidocjs": "^0.10.2"
+  },
+  "optionalDependencies": {
+    "mime-types": "^2.1.28"
+  },
+  "private": true,
+  "scripts": {
+    "yuidoc": "yuidoc -c config/yuidoc.json",
+    "jsdoc": "jsdoc -c config/jsdoc.json"
+  }
+}
