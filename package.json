@@ -10,7 +10,7 @@
   },
   "private": true,
   "scripts": {
-    "yuidoc": "yuidoc -c config/yuidoc.json",
-    "jsdoc": "jsdoc -c config/jsdoc.json"
+    "jsdoc": "jsdoc -c config/jsdoc.json",
+    "yuidoc": "yuidoc -c config/yuidoc.json"
   }
 }
