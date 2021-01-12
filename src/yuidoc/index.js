@@ -24,10 +24,16 @@ function doSomethingWithNumbers(arg) {
  * @method doSomethingGenerics
  * @param {T} arg Argument of any type.
  * @return {T} The given argument.
- * @template T
  */
 function doSomethingGenerics(arg) {
   return arg;
+};
+
+/**
+ * @method doSomethingWithCallback
+ * @param {Function} arg Argument of any type.
+ */
+function doSomethingWithCallback(arg) {
 };
 
 module.exports = {
