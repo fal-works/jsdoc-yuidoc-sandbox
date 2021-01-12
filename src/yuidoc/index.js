@@ -42,5 +42,5 @@ module.exports = {
   doSomethingGenerics
 };
 
-const resultNumbers = doSomethingWithNumbers([1, 2]); // type will be number[]
-const resultGenerics = doSomethingGenerics("a"); // type will be "a"
+const resultNumbers = doSomethingWithNumbers([1, 2]);
+const resultGenerics = doSomethingGenerics("a");
