@@ -40,7 +40,8 @@ function doSomethingWithCallback(arg) {
 module.exports = {
   doSomething,
   doSomethingWithNumbers,
-  doSomethingGenerics
+  doSomethingGenerics,
+  doSomethingWithCallback
 };
 
 const resultNumbers = doSomethingWithNumbers([1, 2]); // type will be number[]
