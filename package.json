@@ -11,6 +11,7 @@
   "private": true,
   "scripts": {
     "jsdoc": "jsdoc -c config/jsdoc.json",
-    "yuidoc": "yuidoc -c config/yuidoc.json"
+    "yuidoc": "yuidoc -c config/yuidoc.json",
+    "yuidoc:lint": "yuidoc -c config/yuidoc.json --lint"
   }
 }
