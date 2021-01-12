@@ -1,8 +1,9 @@
 devDependencies:
   jsdoc: 3.6.6
-  mime-types: 2.1.28
   yuidocjs: 0.10.2
 lockfileVersion: 5.2
+optionalDependencies:
+  mime-types: 2.1.28
 packages:
   /@babel/parser/7.12.11:
     dev: true
@@ -519,7 +520,6 @@ packages:
     resolution:
       integrity: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
   /mime-db/1.45.0:
-    dev: true
     engines:
       node: '>= 0.6'
     resolution:
@@ -533,7 +533,6 @@ packages:
   /mime-types/2.1.28:
     dependencies:
       mime-db: 1.45.0
-    dev: true
     engines:
       node: '>= 0.6'
     resolution:
