@@ -36,11 +36,21 @@ function doSomethingGenerics(arg) {
 function doSomethingWithCallback(arg) {
 };
 
+/**
+ * @method doSomethingWithoutType
+ * @param arg Argument of number type.
+ * @return The given argument.
+ */
+function doSomethingWithoutType(arg) {
+  return arg;
+};
+
 module.exports = {
   doSomething,
   doSomethingWithNumbers,
   doSomethingGenerics,
-  doSomethingWithCallback
+  doSomethingWithCallback,
+  doSomethingWithoutType
 };
 
 const resultNumbers = doSomethingWithNumbers([1, 2]);
